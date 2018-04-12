@@ -88,7 +88,6 @@ npm-debug.log*
 /frontend/node_modules
 /frontend/.idea
 /frontend/vscode
-/frontend/dist
 
 
 

@@ -216,7 +216,7 @@ JSON_API_PLURALIZE_TYPES = True
 # GROBID_HOST = 'http://grobid:8070/api'
 
 # 本地开发配置
-GROBID_HOST = 'http://localhost:8070/api'
+# GROBID_HOST = 'http://localhost:8070/api'
 GROBID_THREADS = 4
 
 
@@ -224,8 +224,8 @@ GROBID_THREADS = 4
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads/')
 
 # Celery settings
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
+# CELERY_BROKER_URL = 'redis://localhost:6379/0'
 
 # Docker compose 配置
-# GROBID_HOST = 'http://grobid:8070/api'
-# CELERY_BROKER_URL = 'redis://redis/0'
+GROBID_HOST = 'http://grobid:8070/api'
+CELERY_BROKER_URL = 'redis://redis/0'

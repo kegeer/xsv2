@@ -225,3 +225,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads/')
 
 # Celery settings
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
+
+# Docker compose 配置
+# GROBID_HOST = 'http://grobid:8070/api'
+# CELERY_BROKER_URL = 'redis://redis/0'

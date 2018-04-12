@@ -2,3 +2,4 @@ SECRET_KEY='b10qn7hm4od=d0s(7*t7t$5coew2p=#6mei#q69mefm3ia4q(@'
 POSTGRES_DB=xueshu
 POSTGRES_USER=xueshu
 POSTGRES_PASSWORD=xueshu123
+DJANGO_PRODUCTION_SETTINGS=true
